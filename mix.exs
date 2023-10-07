@@ -1,9 +1,9 @@
-defmodule Utilx.MixProject do
+defmodule Utix.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :utilx,
+      app: :utix,
       version: "0.1.0",
       elixir: "~> 1.15-rc",
       start_permanent: Mix.env() == :prod,
