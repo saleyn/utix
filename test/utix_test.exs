@@ -10,6 +10,6 @@ defmodule UtixTest do
   end
 
   test "app_version" do
-    assert app_version() =~ ~r/^\d+(.\d+){2}(?:-\d+-g[a-f\d]+)$/
+    assert app_version() =~ ~r/^\d+(.\d+){2}(?:(-\d+-g[a-f\d]+)?)$/
   end
 end

@@ -10,7 +10,7 @@ defmodule Utix.MixProject do
       start_permanent: Mix.env() == :prod,
       deps:            deps(),
       elixirc_paths:   elixirc_paths(),
-      elixirc_options: [warnings_as_errors: false],
+      elixirc_options: [ignore_module_conflict: true],
       package:         package(),
       dialyzer:        dialyzer(),
       # Docs
