@@ -45,9 +45,9 @@ defmodule Utix.MixProject do
   defp package() do
     [
       # These are the default files included in the package
-      licenses: ["BSD"],
+      licenses: ["Apache2"],
       links:    %{"GitHub" => "https://github.com/saleyn/utix"},
-      files:    ~w(lib test mix.exs Makefile README* LICENSE* CHANGELOG*)
+      files:    ~w(lib test mix.exs Makefile README* LICENSE*)
     ]
   end
 
